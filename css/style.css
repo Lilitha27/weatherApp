@@ -1,3 +1,4 @@
+
 body{
     text-align: left;
    background-color: aqua;
@@ -17,10 +18,20 @@ h2 {
  p {
      text-align: left;
  }
+/* alignment for all the images */
 img {
     text-align: right;
 }
-  
+footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color:purple;
+        color: white;
+        text-align: left;
+     }
+
  
 
 
