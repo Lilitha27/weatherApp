@@ -3,7 +3,7 @@ function displayMessage(){
     let temperature = document.getElementById("temp").value;
     console.log(temperature)
     if (temperature >= 24) {
-        document.getElementById("dresscode").innerHTML = "Vest and shorts";
+        document.getElementById("dresscode").innerHTML = "Summer time!! wear shorts ,flip flops and sunglasses ";
     
     } else if (temperature <= 23 && temperature >= 15){
         document.getElementById("dresscode").innerHTML = "wear a windbreaker and have a raincoat";
