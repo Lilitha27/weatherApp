@@ -1,3 +1,5 @@
+
+
 //function displays the dresscode for the day
 function displayMessage(){
     let temperature = document.getElementById("temp").value;
