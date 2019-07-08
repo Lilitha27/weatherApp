@@ -1,21 +1,22 @@
-
-
-//function displays the dresscode for the day
-function displayMessage(){
-    let temperature = document.getElementById("temp").value;
-    console.log(temperature)
-    if (temperature >= 24) {
-        document.getElementById("dresscode").innerHTML = "Summer time!! wear shorts ,flip flops and sunglasses ";
+function displayUserOutput(){
+    var temperature = document.getElementById("temp").value;
+// Creating a temp variable
     
-    } else if (temperature <= 23 && temperature >= 15){
-        document.getElementById("dresscode").innerHTML = "wear a windbreaker and have a raincoat";
-        
-    } else if (temperature <= 14 && temperature >= -7) {
-        document.getElementById("dresscode").innerHTML = "wear a warm clothes and a coat";
-      
-    } else {
-        document.getElementById("dresscode").innerHTML = "invalid temperature";
+//  Giving the temp is greater than 24 degree
+        if (temperature >=24) {
+        document.getElementById("text").innerHTML = "Summer time! wear shorts ,flip flops and sunglasses";
+//  Giving the temp is greater than 23 but less than 14
+        } else if (temperature >=23 && temperature <=14) {
+        document.getElementById("text").innerHTML ="Wear a wind breaker jacket and have a raincoat";
+//  Giving the temp is greater than 13 but less than -7
+        } else if (temperature >=13 && temperature <=-7) {
+        document.getElementById("text").innerHTML ="Dress warmly and bring out your shovel cause its snowy";
+//  Giving that if any of the above values aren't entered then its invalid   
+        } else {
+        document.getElementById("text").innerHTML ="Not a valid weather temperature";
+        }
     
     }
-    }
+
+
     
