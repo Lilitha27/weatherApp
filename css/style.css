@@ -15,13 +15,16 @@ body{
 h2 {
     text-align: left;
 }
+
 p {
      text-align: left;
  }
+
 /* alignment for all the images */
 img {
     text-align: right;
 }
+
 footer {
         position: fixed;
         left: 0;
